@@ -1,0 +1,116 @@
+//XMODELS (VIEW / WORLD / PROJECTILE / FX)
+// Weapon models
+xmodel,t6_wpn_zmb_blundergat_view
+xmodel,t6_wpn_zmb_blundergat_world
+
+// Armor variants
+xmodel,t6_wpn_zmb_blundergat_armor_view
+xmodel,t6_wpn_zmb_blundergat_armor_world
+
+// Projectile & gib FX
+xmodel,t6_wpn_zmb_projectile_blundergat
+xmodel,fx_char_gib_chunk_flesh01
+
+//XANIMS — VIEWMODEL (PLAYER)
+// Idle / fire
+xanim,viewmodel_blundergat_idle
+xanim,viewmodel_blundergat_idle_empty
+xanim,viewmodel_blundergat_fire
+xanim,viewmodel_blundergat_lastshot
+
+// Reload
+xanim,viewmodel_blundergat_reload
+xanim,viewmodel_blundergat_reload_empty
+
+// Raise / putaway
+xanim,viewmodel_blundergat_pullout
+xanim,viewmodel_blundergat_putaway
+xanim,viewmodel_blundergat_first_raise
+xanim,viewmodel_blundergat_pullout_quick
+xanim,viewmodel_blundergat_putaway_quick
+xanim,viewmodel_blundergat_pullout_empty
+xanim,viewmodel_blundergat_putaway_empty
+
+
+//MOVIMENTO (SPRINT / CRAWL)
+// Sprint
+xanim,viewmodel_blundergat_sprint_in
+xanim,viewmodel_blundergat_sprint_loop
+xanim,viewmodel_blundergat_sprint_out
+xanim,viewmodel_blundergat_sprint_in_empty
+xanim,viewmodel_blundergat_sprint_loop_empty
+xanim,viewmodel_blundergat_sprint_out_empty
+
+// Crawl
+xanim,viewmodel_blundergat_crawl_in
+xanim,viewmodel_blundergat_crawl_forward
+xanim,viewmodel_blundergat_crawl_back
+xanim,viewmodel_blundergat_crawl_right
+xanim,viewmodel_blundergat_crawl_left
+xanim,viewmodel_blundergat_crawl_out
+xanim,viewmodel_blundergat_crawl_in_empty
+xanim,viewmodel_blundergat_crawl_forward_empty
+xanim,viewmodel_blundergat_crawl_back_empty
+xanim,viewmodel_blundergat_crawl_right_empty
+xanim,viewmodel_blundergat_crawl_left_empty
+xanim,viewmodel_blundergat_crawl_out_empty
+
+//ADS / D2P (AIM)
+// ADS
+xanim,viewmodel_blundergat_ads_fire
+xanim,viewmodel_blundergat_ads_lastshot
+xanim,viewmodel_blundergat_ads_up
+xanim,viewmodel_blundergat_ads_down
+
+// Down to prone
+xanim,viewmodel_blundergat_d2p_in
+xanim,viewmodel_blundergat_d2p_loop
+xanim,viewmodel_blundergat_d2p_out
+xanim,viewmodel_blundergat_d2p_in_empty
+xanim,viewmodel_blundergat_d2p_loop_empty
+xanim,viewmodel_blundergat_d2p_out_empty
+
+//FX (MUZZLE / EXPLOSION / TRAILS)
+// Muzzle flashes
+fx,weapon/blundersplat/fx_blundersplat_muzzleflash
+fx,weapon/blundersplat/fx_blundersplat_muzzleflash_3p
+fx,weapon/blundersplat/fx_blundersplat_muzzleflash_ug
+fx,weapon/blundersplat/fx_blundersplat_muzzleflash_ug_3p
+
+// Explosion & impact
+fx,weapon/blundersplat/fx_blundersplat_exp
+fx,weapon/blundersplat/fx_blundersplat_exp_bounce
+fx,weapon/blundersplat/fx_blundersplat_impact
+
+// Trails
+fx,weapon/titus/fx_titus_trail_bolt
+fx,weapon/crossbow/fx_trail_crossbow_blink_grn_os
+
+//WEAPONS (ZM)
+weapon,blundergat_zm
+weapon,blundergat_upgraded_zm
+weapon,blundersplat_zm
+weapon,blundersplat_upgraded_zm
+weapon,blundersplat_bullet_zm
+weapon,blundersplat_explosive_dart_zm
+
+//ZOMBIE FX / ANIMS (ACID)
+xanim,ai_zombie_acid_stun_a
+xanim,ai_zombie_acid_stun_b
+xanim,ai_zombie_acid_stun_c
+xanim,ai_zombie_acid_stun_d
+xanim,ai_zombie_acid_stun_e
+
+//RAWFILES (ANIM TREE / STATE)
+rawfile,animtrees/zm_tomb_basic.atr
+rawfile,animstatedefs/zm_tomb_basic.asd
+rawfile,animtrees/zm_nuked_basic.atr
+rawfile,animstatedefs/zm_nuked_basic.asd
+rawfile,animtrees/zm_highrise_basic.atr
+rawfile,animstatedefs/zm_highrise_basic.asd
+rawfile,animtrees/zm_transit_basic.atr
+rawfile,animstatedefs/zm_transit_basic.asd
+rawfile,animtrees/zm_buried_basic.atr
+rawfile,animstatedefs/zm_buried_basic.asd
+
+file: images/*.iwi images/

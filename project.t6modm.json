@@ -1,0 +1,9 @@
+{
+    "name": "Blundersplat",
+    "author": "Pro7xt",
+    "version": "1.0",
+    "description": "Add weapon blundersplat in maps zombies",
+    "fastfiles": [
+    "$HOME/fastfiles/blundersplat.ff"
+    ]
+}

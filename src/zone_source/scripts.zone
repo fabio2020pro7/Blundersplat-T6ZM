@@ -1,0 +1,8 @@
+script,scripts/zm/blunderesplat.gsc
+
+script,maps/mp/zombies/_zm_weap_blundersplat.gsc
+script,scripts/zm/zm_transit/anims_blundersplat.gsc // noignore
+script,scripts/zm/zm_tomb/anims_blundersplat.gsc // noignore
+script,scripts/zm/zm_nuked/anims_blundersplat.gsc // noignore
+script,scripts/zm/zm_highrise/anims_blundersplat.gsc // noignore
+script,scripts/zm/zm_buried/anims_blundersplat.gsc // noignore

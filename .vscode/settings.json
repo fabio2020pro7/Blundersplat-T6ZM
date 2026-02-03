@@ -1,0 +1,7 @@
+{
+    "gsc.ignoredFilePaths": [
+        "maps\\mp\\animscripts\\zm_shared",
+        "maps",
+        "common_scripts"
+    ]
+}

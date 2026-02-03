@@ -1,0 +1,21 @@
+>game,T6
+
+>name,blundersplat
+
+include,clientscripts
+include,scripts
+
+include,weapons/blundersplat
+
+soundbank,blundergat.all
+
+//camo bx7
+material,camo/camo_bx7/mtl_weapon_camo_bx7
+image,~~-gcamo_zmb_bx7_spc-rgb&~-r~471adc2c
+image,~-gcamo_zmb_bx7_col
+image,camo_zmb_bx7_ember
+image,camo_zmb_bx7_heat
+image,camo_zmb_bx7_reveal
+image,camo_zmb_bx7_nml
+
+camo,camo_blundergat
