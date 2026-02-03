@@ -7,4 +7,5 @@ Configure as variáveis de ambiente, caso não tenha feito antes, para isso, def
 
 `t6modm build` - Isso vai gerar o mod para debug, você já pode usar diretamente, mas o indicado é que você
 
+# Agradecimento
 fica aqui meu devido agradecimento ao AdrX003 e ao Thecursednoob
